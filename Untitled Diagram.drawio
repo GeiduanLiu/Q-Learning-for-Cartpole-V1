@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-29T13:34:17.608Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="NdkgpiNPl9NBTjJdL7k2" version="14.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-29T13:35:51.746Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="lApBRS_-ymPBBd3qlGSk" version="14.7.2" type="github">
   <diagram id="RaiZR4qj4PGcMzysrdy3" name="Page-1">
-    <mxGraphModel dx="1316" dy="964" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="526" pageHeight="587" math="0" shadow="0">
+    <mxGraphModel dx="774" dy="567" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="526" pageHeight="587" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -38,7 +38,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="KWBslAcIxPre1BuBQln5-42" value="Processed Inputs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="79" y="467" width="80" height="30" as="geometry" />
+          <mxGeometry x="80" y="460" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KWBslAcIxPre1BuBQln5-43" value="Encoder" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="95" y="7" width="50" height="20" as="geometry" />
