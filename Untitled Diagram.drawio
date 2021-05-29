@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-29T12:39:04.750Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="NGgLtwcs9JS4mPNEJJOS" version="14.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-29T12:52:03.917Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="fEca2FiinwUmLAiftQUO" version="14.7.2" type="github">
   <diagram id="RaiZR4qj4PGcMzysrdy3" name="Page-1">
     <mxGraphModel dx="774" dy="567" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,19 +8,13 @@
           <mxGeometry x="80" y="250" width="160" height="200" as="geometry" />
         </mxCell>
         <mxCell id="KWBslAcIxPre1BuBQln5-2" value="Self Attn" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="109" y="390" width="100" height="20" as="geometry" />
+          <mxGeometry x="110" y="390" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="KWBslAcIxPre1BuBQln5-8" value="Feed Forward" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="110" y="310" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="KWBslAcIxPre1BuBQln5-9" value="Add &amp;amp; Norm" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="110" y="270" width="100" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="KWBslAcIxPre1BuBQln5-10" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="KWBslAcIxPre1BuBQln5-2">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="309" y="320" as="sourcePoint" />
-            <mxPoint x="159" y="370" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="KWBslAcIxPre1BuBQln5-12" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="KWBslAcIxPre1BuBQln5-8" target="KWBslAcIxPre1BuBQln5-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -47,7 +41,7 @@
           <mxGeometry x="119" y="540" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KWBslAcIxPre1BuBQln5-43" value="Encoder" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="134" y="158" width="50" height="20" as="geometry" />
+          <mxGeometry x="135" y="60" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="KWBslAcIxPre1BuBQln5-49" value="Add &amp;amp; Norm" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="110" y="350" width="100" height="20" as="geometry" />
@@ -275,6 +269,36 @@
             <mxPoint x="294" y="526" as="sourcePoint" />
             <mxPoint x="344" y="476" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="KWBslAcIxPre1BuBQln5-122" value="" style="endArrow=classicThin;html=1;fontSize=12;strokeWidth=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.099;entryY=0.979;entryDx=0;entryDy=0;entryPerimeter=0;endFill=1;" edge="1" parent="1" source="KWBslAcIxPre1BuBQln5-9" target="KWBslAcIxPre1BuBQln5-76">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="139" y="390" as="sourcePoint" />
+            <mxPoint x="399" y="445" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="230" />
+              <mxPoint x="320" y="230" />
+              <mxPoint x="320" y="440" />
+              <mxPoint x="400" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KWBslAcIxPre1BuBQln5-123" value="" style="endArrow=none;html=1;fontSize=12;strokeWidth=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="KWBslAcIxPre1BuBQln5-2" target="KWBslAcIxPre1BuBQln5-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="271" y="431" as="sourcePoint" />
+            <mxPoint x="321" y="381" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KWBslAcIxPre1BuBQln5-125" value="" style="endArrow=classicThin;html=1;fontSize=12;strokeWidth=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endFill=1;" edge="1" parent="1" target="KWBslAcIxPre1BuBQln5-76">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="440" as="sourcePoint" />
+            <mxPoint x="347" y="363" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KWBslAcIxPre1BuBQln5-126" value="Semantic Encoded&lt;br&gt;Representations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="160" y="190" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
